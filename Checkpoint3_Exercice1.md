@@ -38,6 +38,8 @@ On créer simplement le dossier de M Lemarchand dans le volume prévue à cette 
 
 ![img](https://github.com/Hichiraku/Checkpoint3TSSR/blob/main/CKPNT3/CKPNT3P1/114/Capture%20d'%C3%A9cran%202023-12-22%20093743.png?raw=true)
 
+# Partie 2 : Restriction Utilisateurs
+
 ## Q 1.2.1
 Pour empêcher M Ghul de se connecter en dehors de ses heures de travail, il nous suffit de se rendre dans les propriété de son objetAD, dans l'onglet "**Account**" et on clique sur le bouton "**Logon Hours**"
 
@@ -72,6 +74,8 @@ Pour facilité son application j'ai crée un groupe dans mon AD qui regroupe tou
 Enfin je l'applique directement a ma politique de mot de passe pour qu'elle soit effective sur tout les utilisateurs de mon AD
 
 ![img](https://github.com/Hichiraku/Checkpoint3TSSR/blob/main/CKPNT3/CKPNT3P1/123/Capture%20d'%C3%A9cran%202023-12-22%20095949.png?raw=true)
+
+# Partie 3 : Lecteurs Réseaux
 
 ## Q 1.3.1
 On commence par crée une GPO dans le dossier prévu a cette effet, et on y ajoute le groupe précédemment crée pour qu'il s'applique à tout les utilisateurs de mon OU LabsUsers, ainsi qu'au groupe Domain Computer, sans ca la GPO ne fonctionnera pas
